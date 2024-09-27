@@ -34,12 +34,64 @@ main {
     padding: 2rem;
 }
 
-footer {
-    background-color: #333;
-    color: #fff;
+#catalog-main {
+    display: flex;
+    justify-content: space-between;
+}
+
+#book-list,
+#cart {
+    width: 48%;
+}
+
+.book-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.book-item h3 {
+    margin-top: 0;
+}
+
+.book-item p {
+    margin: 5px 0;
+}
+
+.cart-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+#cart-total {
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+#checkout-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 5px 10px;
     text-align: center;
-    padding: 1rem;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.cart-item button {
+    background-color: #f44336;
+}
+
+#checkout-btn {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin-top: 20px;
 }
